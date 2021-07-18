@@ -5,7 +5,7 @@ export default function Details({meetupDetail}) {
 
     return (
         <section className={classes.details}>
-            <Image src={meetupDetail.image} alt={meetupDetail.title} />
+            <Image src={meetupDetail.image} alt={meetupDetail.title} width={600} height={400}/>
             <h3 >{meetupDetail.title}</h3>
             <address>{meetupDetail.address}</address>
             <p>{meetupDetail.description}</p>
